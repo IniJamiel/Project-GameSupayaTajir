@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2vigtmddybe1"]
+
+[ext_resource type="PackedScene" uid="uid://281l0cn1brdl" path="res://Character/Base/base.tscn" id="1_gebul"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wlhhw"]
+size = Vector2(1194.5, 26)
+
+[node name="TestStage" type="Node2D"]
+
+[node name="Base" parent="." instance=ExtResource("1_gebul")]
+position = Vector2(313, 263)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(573.75, 636)
+shape = SubResource("RectangleShape2D_wlhhw")

@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://281l0cn1brdl"]
+
+[ext_resource type="Texture2D" uid="uid://bisosrshgwgwy" path="res://Character/Base/Contoh.png" id="1_erloq"]
+[ext_resource type="Script" path="res://Character/base.gd" id="1_jhbvd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t7c57"]
+size = Vector2(149, 475)
+
+[node name="Base" type="CharacterBody2D"]
+script = ExtResource("1_jhbvd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_erloq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_t7c57")
+
+[node name="HitboxStanding" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitboxStanding"]
+scale = Vector2(1.01, 1.01)
+shape = SubResource("RectangleShape2D_t7c57")
+
+[node name="H2" type="Area2D" parent="."]
+
+[node name="Collision" type="CollisionShape2D" parent="H2"]
+position = Vector2(151, 0)
+shape = SubResource("RectangleShape2D_t7c57")
+disabled = true
+
+[node name="L1" type="Area2D" parent="."]
+
+[node name="Collision" type="CollisionShape2D" parent="L1"]
+position = Vector2(151, 0)
+shape = SubResource("RectangleShape2D_t7c57")
