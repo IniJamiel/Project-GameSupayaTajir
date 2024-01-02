@@ -70,7 +70,7 @@ Team playstyles (for plot):
 
 
 ### Main Character Female:
-![Alt text](image-1.png)![Alt text](00026-23390075-before-face-restoration.png)
+![Alt text](image-1.png)![Alt text](00026-23390075-before-face-restoration.png) ![Alt text](00032-23390078-before-face-restoration.png)
 - From School B (School A Rival)
 - Fire Battle Mage, Diana style
 - Fights heads on, big engage
@@ -78,7 +78,7 @@ Team playstyles (for plot):
   - Plot Device idea:
     - Celebrity, can't date anyone anyhow
     - Will eventually go out of the country, doesn't want strings attached
-- Met Main Character in a battle, fought hard but got outplayed and 
+- Met Main Character in a battle, fought hard but got outplayed
 
 ### **Main Character Romance:**
 - **Should end in a bad way**
